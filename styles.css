@@ -7,6 +7,15 @@ body {
     margin: 0;
 }
 
+header {
+    background: linear-gradient(to right, #cbdceb, #00f2fe); /* Gradient background */
+    color: white; /* Adjust text color for better contrast */
+    padding: 20px; /* Add padding around the header */
+    text-align: center; /* Center align text */
+    border-radius: 8px; /* Optional: Round corners */
+    font-size: medium;
+}
+
 nav ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
@@ -95,3 +104,38 @@ nav a:hover {
     border-bottom: 2px solid #ff4d6d; /* Optional: Change bottom border color */
     transition: background 0.3s ease, color 0.3s ease; /* Smooth transition effect */
 }
+
+table {
+    border-collapse: collapse; /* Ensures borders do not double up */
+    width: 100%; /* Makes the table span the full width of its container */
+    border: 2px solid #ccc; /* Adds a border around the table */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Adds borders to table cells */
+    padding: 10px; /* Adds padding inside cells for better readability */
+    text-align: left; /* Aligns text to the left */
+}
+
+th {
+    background-color: #f2f2f2; /* Adds a light background color to header cells */
+    font-weight: bold; /* Makes header text bold */
+}
+
+td {
+    background-color: #ff77ee; /* Adds a white background color to data cells */
+
+}
+
+th {
+    background-color: #9999ff;
+}   
+
+th {
+    text-transform: uppercase; /* Makes text in the header row uppercase */
+    background-color: #333; /* Dark background color for the header */
+    color: #fff; /* White text for contrast */
+    padding: 10px; /* Adds padding for better readability */
+    border-bottom: 3px solid #ccc; /* Adds a thicker bottom border */
+}
+
